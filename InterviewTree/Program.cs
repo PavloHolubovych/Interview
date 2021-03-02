@@ -16,7 +16,57 @@ namespace InterviewTree
                     new Node() {Label = "d"}
                 }
             };
-           // to be uncommented later                                                                                                                                                                 root.Children.Add(new DeepNodeProvider().Get());
+            //NextLevel(root);
+            
+            
+            
+        }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        private static void NextLevel(Node root)
+        {
+            root.Children.Add(new DeepNodeProvider().Get());
         }
     }
 }
